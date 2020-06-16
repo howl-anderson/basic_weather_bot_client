@@ -25,4 +25,4 @@ release: build tag login push
 
 .PHONY: run
 run:
-	docker run -p 8000:8000 ${image_name}
+ docker run -p 8000:8000 ${image_name}

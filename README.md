@@ -1,10 +1,11 @@
-# UI for 天气预报查询机器人
+# 一个基于 Rasa 的天气查询机器人[前端部分]
 
-## 功能
-提供一个静态的基于 WEB 的用户界面，方便用户和机器人进行对话
+本项目是基于 Rasa 的天气查询机器人项目的前端部分，另一个部分是后端部分位于 [basic_weather_bot_server](https://github.com/howl-anderson/basic_weather_bot_server)
 
-## 依赖
-python >= 3.5
+## 环境要求 ##
+Mac OS X or Linux
+
+Windows supporting is on the radar.
 
 ## 安装
 ```bash
@@ -12,6 +13,12 @@ pip install -r requirements.txt
 ```
 
 ## 启动
+
+### 启动后端服务器 ###
+阅读 [basic_weather_bot_server](https://github.com/howl-anderson/basic_weather_bot_server) 项目的 README，启动后端服务器
+
+### 启动前端服务器 ###
+
 ```bash
 ./start_server.bash
 ```

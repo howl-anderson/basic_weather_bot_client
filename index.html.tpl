@@ -781,7 +781,7 @@
             这种日期的查询能力。
         </li>
         <li>因为使用的是免费的天气查询接口，所以 <strong>会有配额限制</strong>，可能会因为
-            <strong>超出调用次数</strong> ，而在一个小时内不能用。同时网络查询接口可能存在不稳定因素，导致 <strong>没有结果返回或者出现异常</strong>，<strong>尝试多次重新发送请求可解决问题</strong>。
+            <strong>超出调用次数</strong> ，而在一个小时内不能用。同时网络查询接口可能存在不稳定因素，导致 <strong>没有结果返回或者出现异常</strong>，<strong>尝试多次重新发送请求可解决问题</strong>。
         </li>
     </ul>
 
@@ -794,7 +794,7 @@
 
     <p>Xiaoquan Kong @ <a href="https://github.com/howl-anderson">https://github.com/howl-anderson</a>
     </p>
-    <h2 class="mume-header" id="copyrights">Copyrights</h2>
+    <h2 class="mume-header" id="copyrights">Copyrights</h2>
 
     <div>Robot icon in web-chat interface made by <a
             href="https://www.flaticon.com/authors/good-ware" title="Robotic">Robotic</a>
@@ -816,6 +816,7 @@
         interval: 1000, // 1000 ms between each message
         customData: {"userId": "123"}, // arbitrary custom data. Stay minimal as this will be added to the socket
         socketUrl: "{{ server_url }}",
+        socketPath: "/socket.io/",
         title: "天气预报查询",
         subtitle: "Demo",
         profileAvatar: "robotic.png",
